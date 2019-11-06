@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <title>Cat Page</title>
 </head>
 <body>
     <h1>Hello RCS!</h1> 
@@ -16,6 +17,7 @@
     View more
     <a href="http://freecatphotoapp.com" target="_blank">cat photos</a>
 </p>
+<div>
 <p>Things cats love:</p>
   <ul>
     <li>cat nip</li>
@@ -28,10 +30,18 @@
     <li>thunder</li>
     <li>other cats</li>
   </ol>
+</div>
 
-<form action="/submit-cat-photo">
-    <input type="text" name="CatURL" placeholder="cat photo URL">
-    <button type="submit">Submit</button>
+
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+  
+    <form action="/submit-cat-photo">
+      <input type="text" name="CatURL" placeholder="cat photo URL" required >
+      <button type="submit">Submit</button><br>
   </form>
   <a href="#">Back to begining</a>
 <footer id="footer">(c) 2019</footer>
