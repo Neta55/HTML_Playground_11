@@ -1,5 +1,6 @@
 h1 {
     color: rgb(119, 21, 21);
+    background: palegoldenrod;
 }
 
 p {color: orange; 
@@ -8,3 +9,12 @@ text-decoration: underline;
 .green-text {
     color: green;    
 }
+.thich-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 50%;
+  }
+  .silver-background {
+    background-color: silver;
+  }
