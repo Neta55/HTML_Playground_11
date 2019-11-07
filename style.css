@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(119, 21, 21);
+}
+
+p {color: orange; 
+text-decoration: underline;
+}
+.green-text {
+    color: green;    
+}
