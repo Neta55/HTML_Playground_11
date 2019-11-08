@@ -17,4 +17,11 @@ text-decoration: underline;
   }
   .silver-background {
     background-color: silver;
+  
+  }
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
   }
