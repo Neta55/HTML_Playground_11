@@ -40,7 +40,7 @@ h1 {
     font-family: sans-serif;
     font-size: auto;
     font-weight: bold;
-    color: rgb(2, 2, 92);
+    color: darkblue;
 }
 .main-cont {
     width: 100%;
@@ -55,19 +55,17 @@ h1 {
 
 .left-side {
     width: 20%;
-    
+    height: 500px;
     background-color: indigo;
-    padding: 10px;
+    padding: 1%;
 }
 .left-menu-cont  {
-    height: 500px;
+    
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: flex-start;
     flex-direction: column;
-    text-align: start;
-
 } 
 
 #left-menu-items {
@@ -80,9 +78,9 @@ h1 {
 }
 
 
-.content {
-    background-color: lightblue;
+.content { 
     width: 60%;
+    background-color: lightblue;
     height: 500px;
     padding: 1%;
 
