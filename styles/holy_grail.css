@@ -70,7 +70,6 @@ h1 {
 
 #left-menu-items {
     width: 80%;
-    /* height: auto;  */
     padding: 5%;
     margin: 5%;
     background-color: darkred;
@@ -92,10 +91,11 @@ h1 {
     background-color: lightcoral;
     padding: 1%;
 }
-    .advert {
-        /* background-image: url("/cat.jpg"); */
-        width: fit-content;      
-    }
+    /* .advert {
+        background-image: url("/cat.jpg");
+        width: fit-content; 
+        z-index: 100;     
+    } */
 
 #footer {
     background-color: darkgoldenrod;
