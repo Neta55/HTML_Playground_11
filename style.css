@@ -25,3 +25,6 @@ text-decoration: underline;
     border-width: 5px;
     text-align: center;
   }
+
+  .bulta
+  {clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);}

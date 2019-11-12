@@ -1,0 +1,49 @@
+
+  header {
+    background-color: hsl(180, 90%, 35%);
+    color: #FFFFFF;
+  }
+.lin-gradient {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+  nav {
+background-color: hsl(180, 80%, 25%);
+  }
+
+  h1 {
+    text-indent: 10px;
+    padding-top: 10px;
+  }
+
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .stripains {
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );}
+
+    .body-bilde {
+background-image:  url(C:\Users\huawei\Documents\github\Homework_1\main_fondant.jpg);
+    }
+  
