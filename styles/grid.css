@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 10% 200px auto 150px;
+    grid-template-rows: 20% 150px auto;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: orange;
+}
