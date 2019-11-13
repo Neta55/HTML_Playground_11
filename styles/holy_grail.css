@@ -91,11 +91,12 @@ h1 {
     background-color: lightcoral;
     padding: 1%;
 }
-    /* .advert {
-        background-image: url("/cat.jpg");
-        width: fit-content; 
+
+    .advert {
+
+        width: 90%; 
         z-index: 100;     
-    } */
+    }
 
 #footer {
     background-color: darkgoldenrod;
